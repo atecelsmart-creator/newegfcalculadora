@@ -1,0 +1,12 @@
+{
+  "comissao_limiar": 50.0,
+  "comissao_pct_abaixo_limiar": 0.16,
+  "comissao_pct_acima_limiar": 0.12,
+  "taxa_fixa_abaixo_limiar": 4.00,
+  "taxa_fixa_acima_limiar": 6.00,
+  "taxa_premio_fixo": 1.07,
+  "comissao_afiliados_pct": 0.06,
+  "perc_mentoria": 0.01,
+  "perc_custo_logistico": 0.035,
+  "perc_perda": 0.01
+}
