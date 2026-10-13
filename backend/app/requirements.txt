@@ -1,0 +1,21 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+pytest
+
+# Tabela PMA: upload de planilha Excel (.xlsx / .xlsb / .xls)
+python-multipart
+openpyxl
+pyxlsb
+xlrd
+
+# Planilha do Mercado Livre: gravar direto em .xls / .xlsb / .ods usa o Microsoft Excel instalado no PC (COM)
+pywin32; sys_platform == "win32"
+
+# Aba Automático (robo de precos): o robo chama a propria calculadora por HTTP
+requests
+# SQLAlchemy e psycopg2-binary foram removidos temporariamente: ainda nao
+# sao usados por nenhuma rota da API (app/db so tera uso quando a
+# integracao com Postgres for implementada de verdade). Reinstale-os
+# quando isso acontecer.
